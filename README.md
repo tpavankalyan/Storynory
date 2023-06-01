@@ -3,8 +3,14 @@ Current Text-to-Speech (TTS) systems are trained on audiobook data and perform w
 
 ![architecture diagram](/VITS_NC_architecture.png)
 
+Please find the link for the paper [here]()
+
+* Audio samples and additional analysis results are in supplementary material [link](https://is2023.notion.site/A-storytelling-TTS-corpus-and-model-supporting-narrator-character-voice-modulation-30cf427f7b1143e4933cbcf99a7f311f)
 * StoryNory TTS Dataset with speaker labels [link](https://huggingface.co/datasets/Pavankalyan/StoryNory)
 * Fine-tuning script for predicting Narrator/character labels using Bert [link](/narrator_classification.ipynb)
 * Fine-tuned Bert checkpoint [link]()
 * The basic architecture is VITS in multi-speaker setting [code](https://github.com/jaywalnut310/vits)[paper](https://arxiv.org/abs/2106.06103)
+* VITS single speaker checkpoint trained on StoryNory TTS datset [link]()
+* VITS multi-speaker checkpoint trained on StoryNory TTS dataset [link]()
+* Interactive Colab for conducting AB preference test [link]()
 
