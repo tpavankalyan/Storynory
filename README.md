@@ -6,7 +6,7 @@ Current Text-to-Speech (TTS) systems are trained on audiobook data and perform w
 Please find the link for the paper [here]()
 
 * Audio samples and additional analysis results are in supplementary material [[link](https://is2023.notion.site/A-storytelling-TTS-corpus-and-model-supporting-narrator-character-voice-modulation-30cf427f7b1143e4933cbcf99a7f311f)]
-* StoryNory TTS Dataset with speaker labels [[link](https://huggingface.co/datasets/Pavankalyan/StoryNoryTTS)]
+* StoryNory TTS Dataset with speaker labels [[link](https://huggingface.co/datasets/Pavankalyan/StoryNoryTTS)]. The original audio files scraped from the [StoryNory](https://www.storynory.com/) website along with the full transcripts can be obtained [here](https://huggingface.co/datasets/Pavankalyan/StoryNory_raw_unsegmented). Nvidia [Nemo](https://github.com/NVIDIA/NeMo) is used to segment and format into standard TTS dataset.
 * Fine-tuning script for predicting Narrator/character labels using Bert [[link](/narrator_classification.ipynb)]
 * Fine-tuned Bert checkpoint [[link](https://huggingface.co/Pavankalyan/Bert_narrator_character)]
 * The basic architecture is VITS in multi-speaker setting [[code](https://github.com/jaywalnut310/vits)] [[paper](https://arxiv.org/abs/2106.06103)]
